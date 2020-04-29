@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Pilihan_tempat"
+        android:title="@string/Pilihan_tempat"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/spbu_1"
+                android:title="@string/spbu_1"
+                app:showAsAction="never"/>
+            <item android:id="@+id/spbu_2"
+                android:title="SPBU Universitas Muhammadiyah Malang"
+                app:showAsAction="never"/>
+            <item android:id="@+id/spbu_3"
+                android:title="@string/spbu_3"
+                app:showAsAction="never"/>
+            <item android:id="@+id/spbu_4"
+                android:title="@string/spbu_4"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+</menu>
